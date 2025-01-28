@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fcc737;
+  font-family: "Jaro", sans-serif;
+}
+
+.img {
+  height: 4vw;
+}
+
+.MePic {
+  width: 450px;
+  border-radius: 15px;
+}
+
+.WrkImg {
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.nmeImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.prjimg {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.prjimg:hover {
+  box-shadow: 0 0 10px 6px #df41c4;
+}
+
+.xtrapics {
+  width: 40%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.abtpic {
+  position: relative;
+  z-index: 1;
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.WrkCntr {
+  display: flex;
+}
+
+.WrkImg:hover {
+  box-shadow: 0 0 10px 6px #df41c4;
+}
+
+.prjimgmain {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
