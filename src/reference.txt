@@ -1,0 +1,191 @@
+/* Optimization media breakpoints starts here mamaee! */
+/* Mobile and  tablets */
+@media (min-width: 0px) and (max-width: 480px) {
+  .PromptBox {
+    width: 70%;
+  }
+
+  .PromptBtn {
+    padding: 10px;
+    width: 80px;
+  }
+
+  .Boxes {
+    font-weight: 500;
+  }
+
+  .Menus {
+    display: none;
+  }
+
+  .Headline {
+    font-size: 23px;
+    width: 100%;
+  }
+
+  .FAQTitle {
+    font-size: 26px;
+  }
+
+  .FixedTOC {
+    display: none;
+  }
+
+  .Main {
+    margin: 80px 10px 40px 20px;
+  }
+
+  .ChatTitle {
+    font-size: 24px;
+    width: 75%;
+  }
+
+  .Left {
+    margin-left: 0px;
+  }
+
+  .Right {
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+  }
+  .NavMob {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .FAQues {
+    font-size: 15px;
+  }
+
+  .AccBtn {
+    padding: 4px;
+  }
+
+  .FAQContainer {
+    grid-column: span 12;
+  }
+
+  .PrmptBtn {
+    width: 70px;
+  }
+
+  .FAQPrompt {
+    width: 200px;
+  }
+
+  .ChatContainer {
+    width: 90%;
+    height: 700px;
+  }
+
+  .FooterLogo {
+    font-size: 22px;
+  }
+
+  .TopSection {
+    gap: 20%;
+  }
+
+  .FAQBoxes {
+    padding: 10px 10px 10px 10px;
+  }
+
+  .SwitchBtn{
+    margin-top: -7px;
+  }
+
+  .FooterCpyRits,.FooterLogo{
+    display: none;
+  }
+
+
+
+}
+
+/* tablet end point (standard) */
+@media (min-width: 480px) and (max-width: 769px) {
+  .PromptArea {
+    margin-top: 2vh;
+  }
+  .PromptBox {
+    width: 70%;
+  }
+
+  .PromptBtn {
+    padding: 10px;
+    width: 90px;
+  }
+
+  .Boxes {
+    font-weight: 500;
+  }
+
+  .Left {
+    margin-left: 20px;
+  }
+
+  .TopSection {
+    gap: 30%;
+  }
+
+  .Menus {
+    display: none;
+  }
+
+  .Headline {
+    font-size: 24px;
+    width: 100%;
+  }
+
+  .FAQTitle {
+    font-size: 28px;
+  }
+
+  .FixedTOC {
+    display: none;
+  }
+
+  .Main {
+    margin: 80px 10px 40px 10px;
+  }
+
+  .ChatTitle {
+    font-size: 24px;
+  }
+
+  .Right {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .SwitchBtn {
+    padding-bottom: 8px;
+  }
+
+  .FAQContainer {
+    grid-column: span 12;
+    margin: 20px;
+  }
+
+  .ChatContainer{
+    width: 90%;
+  }
+
+}
+
+@media (min-width: 769px) {
+  .NavMob {
+    display: none;
+  }
+
+  .HisMobile {
+    display: none;
+  }
+
+  .HamMob {
+    display: none;
+  }
+}

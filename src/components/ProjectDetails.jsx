@@ -20,7 +20,7 @@ const ProjectDetails = () => {
       <div className="mt-10 mx-16">
         <div className="flex items-center gap-6">
           <h1 className="text-9xl text-secondary">
-            <a href={project.link} target="_blank" rel="nooopener noreferrer">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
               {project.title}
             </a>
           </h1>

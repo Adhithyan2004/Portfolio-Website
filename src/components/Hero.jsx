@@ -22,13 +22,15 @@ const Hero = () => {
             rootMargin="-50px"
             onLetterAnimationComplete={handleAnimationComplete}
           /> */}
-          <h1 className="text-[20vw] mb-[-60px]">Hello</h1>
-          <p className="text-[2vw]">
-            -It's Adhithyan a ui/ux developer based in Tamil Nadu, India
+          <h1 className="HroTxt text-[20vw] mb-[-60px]">Hello</h1>
+          <p className="HroDesc text-[2.5vw] w-[45vw]">
+            -It's Adhithyan a <span className="text-black">ui/ux developer</span> based in Tamil Nadu,
+            India
           </p>
         </div>
         <div className="HroRgt">
           <img className="MePic" src={Me} alt="mera face" />
+          <p className="MobTxtJob text-[10vw] text-secondary">UIUX <span className="text-blk">developer</span></p>
         </div>
       </div>
     </>

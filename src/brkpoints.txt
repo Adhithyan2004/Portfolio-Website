@@ -1,0 +1,4 @@
+mobile : 0-480px
+tablets 480-768px
+smal laps and larger tablets : 769-1279px
+lap and above : 1280px+

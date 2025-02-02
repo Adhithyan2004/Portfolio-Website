@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import HamburgerMenu from "./HamburgerMenu";
 const NavBar = () => {
   const navigate = useNavigate();
 
@@ -22,9 +23,14 @@ const NavBar = () => {
   return (
     <nav className="NCntr mx-16 flex items-center justify-between">
       <div className="Nlft flex items-center gap-8">
-        <h1 className="text-7xl cursor-pointer" onClick={handleNavHome}>
-          A
-        </h1>
+        <div className="MobNav">
+          <h1 className="text-7xl cursor-pointer" onClick={handleNavHome}>
+            A
+          </h1>
+          <div className="NrgtHmb">
+            <HamburgerMenu />
+          </div>
+        </div>
         <div className="Nopts text-2xl flex gap-7 text-secondary">
           <span
             onClick={handleNavAbt}
@@ -60,7 +66,7 @@ const NavBar = () => {
       </div>
       <u
         onClick={handleNavCnt}
-        className="Nrgt text-2xl text-secondary transition delay-75 duration-200 ease-in-out hover:-translate-y-1 hover:scale-x-105 cursor-pointer"
+        className="Nrgt CntBtn text-2xl text-secondary transition delay-75 duration-200 ease-in-out hover:-translate-y-1 hover:scale-x-105 cursor-pointer"
       >
         Contact Me
       </u>

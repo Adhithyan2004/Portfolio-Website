@@ -9,11 +9,11 @@ import tailwind from "../assets/taiwldc.jpg";
 // TODO optimize Bento layout for screens
 const Bento = () => {
   return (
-    <div className="grid grid-cols-12 grid-rows-12 h-[95vh] gap-3 m-7">
+    <div className="MainGrid grid grid-cols-12 grid-rows-12 h-[95vh] gap-3 m-7">
       <div className="Skills bg-blk row-span-12 col-span-3 rounded-xl p-5 flex flex-col flex-wrap justify-center gap-5">
         <h1 className="font-sec text-primary text-[4.2vw] gap-3">My Skills</h1>
         <div className="skls text-secondary font-sec flex flex-col gap-7 text-[2.2vw]">
-          <span>User Experience/User Interface</span>
+          <span>User Experience and User Interface</span>
           <span>Frontend</span>
           <span>Wireframing</span>
           <span>Poster design</span>

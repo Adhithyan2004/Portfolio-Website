@@ -15,6 +15,7 @@ const AbtSection = () => {
           <p>FRONTEND</p>
           <p>UI/UX DESIGN</p>
           <p>BRANDING & IDENTITY</p>
+          <p>RESPONSIVE DESIGNING</p>
         </div>
       </div>
       <div className="expcntr pb-24 ml-12 p-7 mt-3  text-4xl flex flex-col gap-5">

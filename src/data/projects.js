@@ -25,7 +25,7 @@ export const projects = [
     img2: Wrk12,
     wrkimg: WrkHome1,
     category: "Branding, Package Designing, Frontend Development",
-    link:"https://www.behance.net/gallery/199652117/Wiki-App-for-hip-hop-artists-(RAPP)",
+    link:"https://www.behance.net/gallery/211285593/Bean-Odyssey-Package-Design-and-Branding"
   },
   {
     id: "2",
@@ -36,7 +36,7 @@ export const projects = [
     img2: Wrk22,
     wrkimg: WrkHome2,
     category: "UI/UX, Mobile Application Design, Case Study",
-    link:"https://www.behance.net/gallery/199652117/Wiki-App-for-hip-hop-artists-(RAPP)",
+    link:"https://www.behance.net/gallery/199652117/Wiki-App-for-hip-hop-artists-(RAPP)"
   },
   {
     id: "3",
@@ -47,7 +47,7 @@ export const projects = [
     img2:Wrk32,
     wrkimg: WrkHome3,
     category: "UI/UX, Mobile Screen Design, Case Study",
-    link:"https://www.behance.net/gallery/203569423/Fitness-social-tracker-app(PeakPulse)",
+    link:"https://www.behance.net/gallery/203569423/Fitness-social-tracker-app(PeakPulse)"
   },
   {
     id:"4",
@@ -58,6 +58,6 @@ export const projects = [
     img2:Wrk42,
     wrkimg: WrkHome4, 
     category:"Poster Design, Graphic Design, Visual Communication",
-    link:"https://www.behance.net/gallery/200966697/Posters",
+    link:"https://www.behance.net/gallery/200966697/Posters"
   },
 ];
