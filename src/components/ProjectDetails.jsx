@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import { projects } from "../data/projects";
+import { projects } from "../data/projects.js";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import { FaExternalLinkAlt } from "react-icons/fa";

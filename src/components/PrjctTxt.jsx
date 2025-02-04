@@ -1,6 +1,6 @@
 // src/components/PrjctTxt.jsx
 import React from "react";
-import { projects } from "../data/projects";
+import { projects } from "../data/projects.js";
 
 const PrjctTxt = () => {
   return (
