@@ -75,22 +75,22 @@ body {
   margin-bottom: 40px;
 }
 
-
 /* Mobile optimization starts here !!*/
 @media (min-width: 0px) and (max-width: 480px) {
+  /* Hoem page optimization starts here */
   .Nopts {
     display: none;
   }
-  
+
   .CntBtn {
     display: none;
   }
-  
-  .NCntr{
-    margin:0;
+
+  .NCntr {
+    margin: 0;
   }
 
-  .Nlft{
+  .Nlft {
     width: 100%;
   }
 
@@ -103,7 +103,7 @@ body {
     margin-left: auto;
   }
 
-  .HroCntr{
+  .HroCntr {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -112,14 +112,14 @@ body {
     gap: 10px;
   }
 
-  .HroTxt{
+  .HroTxt {
     margin: 0;
     margin-bottom: -20px;
     text-align: center;
     font-size: 150px;
   }
 
-  .HroDesc{
+  .HroDesc {
     margin: 0;
     text-align: center;
     font-size: 20px;
@@ -129,18 +129,18 @@ body {
     line-height: 24px;
   }
 
-  .HroLft{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  .HroLft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .MePic{
+  .MePic {
     width: 65%;
   }
 
-  .HroRgt{
+  .HroRgt {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -148,41 +148,41 @@ body {
     align-items: center;
   }
 
-  .Ftr{
+  .Ftr {
     display: flex;
     flex-wrap: wrap;
     color: #ff0490;
   }
 
-  .FtrYr{
+  .FtrYr {
     color: black;
   }
 
   /* bento layout optimization starts here!! */
 
-  .MainGrid{
+  .MainGrid {
     margin: 15px;
   }
 
-  .Title{
+  .Title {
     display: none;
   }
 
-  .Skills{
+  .Skills {
     grid-row: span 8;
     grid-column: span 6;
   }
 
-  .skls{
+  .skls {
     font-size: 15px;
     gap: 20px;
   }
 
-  .sklsTtl{
+  .sklsTtl {
     font-size: 20px;
   }
 
-  .SofWrs{
+  .SofWrs {
     /* display: none; */
     grid-column: span 6;
     gap: 15px;
@@ -191,83 +191,200 @@ body {
     padding: 5px;
   }
 
-  .sftwrs{
+  .sftwrs {
     display: none;
   }
 
-  .sftimg{
+  .sftimg {
     height: 11vw;
     margin: 0;
   }
 
-  .Bio{
+  .Bio {
     grid-column: span 6;
   }
 
-  .BioTxt{
+  .BioTxt {
     font-size: 15px;
   }
-  
-  .Exp{
+
+  .Exp {
     grid-column: span 6;
     padding: 10px;
-    
   }
 
-  .ExpTtl{
+  .ExpTtl {
     font-size: 20px;
   }
-  
-  .ExpBdy{
+
+  .ExpBdy {
     font-size: 15px;
     gap: 10px;
   }
 
-  .Exptym{
+  .Exptym {
     margin: 0;
-
   }
 
-  .test-1{
+  .test-1 {
     padding: 0;
     flex-direction: column;
   }
 
-  .test-2{
+  .test-2 {
     padding: 0;
     flex-direction: column;
   }
 
-  .WrkImg{
+  .WrkImg {
     height: 200px;
     width: 95%;
   }
 
-  .CtaTtl{
+  .CtaTtl {
     width: 90%;
   }
 
-  .CtaPara{
+  .CtaPara {
     font-size: 40px;
     text-align: center;
   }
 
-  .Btns{
+  .Btns {
     font-size: 20px;
   }
 
+  /* Project page optimization starts here */
+  .PrjTtl {
+    font-size: 15vw;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .prjimg {
+    width: 100vw;
+    margin: 0;
+    border-radius: 5px;
+  }
+
+  /* About page mobile optimization */
+
+  /* About Hero mobile optimization */
+  .AbtHroTtl {
+    font-size: 20vw;
+  }
+
+  .abtpic {
+    width: 70%;
+    height: 300px;
+    margin-top: -35px;
+    border-radius: 7px;
+  }
+
+  .AbtHroJob {
+    font-size: 20vw;
+    margin-top: 5vh;
+  }
+
+  .AbtHroDesc {
+    font-size: 7vw;
+    margin-top: 5vh;
+    width: 90%;
+  }
+
+  /* About Section mobile optimization */
+  .AbtSecTtl{
+    font-size: 15vw;
+    padding: 0;
+    padding-top: 20px;
+    margin-left: 8vw;
+    width: 90%;
+  }
+
+  .AbtSecCntr{
+    width: 100%;
+    margin: 0;
+  }
+
+  .sklscntr{
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sklttl{
+    font-size: 10vw;
+  }
+
+  .Skls{
+    font-size: 8vw;
+    gap: 10px;
+  }
+
+  .expcntr{
+    width: 100%;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+    .exptymcntr{
+    
+    }
+
+    .exptym{
+      font-size: 10vw;
+      gap: 20px;
+      flex-direction: column;
+    }
+
+    /* Contact page mobile optimization starts here */
+    .CntTtl{
+      font-size: 20vw;
+      /* text-align: center; */
+      line-height: .85;
+      width: 80%;
+      padding: 10px;
+      margin: 10px;
+      margin-top: 30px;
+    }
+
+    .CntPara{
+      font-size: 7vw;
+      line-height: 1.2;
+      width: 100%;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .CntWays{
+      width: 100%;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    .CntCntr{
+      /* margin: 0px; */
+      margin: 10px;
+    }
+
+    .Cntphn , .Cntmail{
+      font-size: 7vw;
+    }
+
+    .Cntph,.Cntml{
+      font-size: 7vw;
+    }
+    
 }
 
-@media (min-width:1279px){
-  .NrgtHmb{
+@media (min-width: 1279px) {
+  .NrgtHmb {
     display: none;
   }
 
-  .MobTxtJob{
+  .MobTxtJob {
     display: none;
   }
-
-
-
 }
-

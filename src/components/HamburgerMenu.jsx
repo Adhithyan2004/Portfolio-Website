@@ -48,7 +48,7 @@ const HamburgerMenu = () => {
   }, []);
 
   return (
-    <div className="relative" ref={menuRef}>
+    <div className="relative z-50" ref={menuRef}>
       {/* Hamburger Icon */}
       <button
         className="flex flex-col justify-between w-8 h-6 z-10 focus:outline-none"
