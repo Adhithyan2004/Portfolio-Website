@@ -6,7 +6,6 @@ import affinity from "../assets/affinity.jpg";
 import psd from "../assets/psd.png";
 import tailwind from "../assets/taiwldc.jpg";
 
-// TODO optimize Bento layout for screens
 const Bento = () => {
   return (
     <div className="MainGrid grid grid-cols-12 grid-rows-12 h-[95vh] gap-3 m-7">

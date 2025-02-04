@@ -267,6 +267,44 @@ body {
     border-radius: 5px;
   }
 
+  /* ProjectDetails page mobile optimization */
+  .PrjDtlsCntr {
+    margin: 20px;
+    padding: 0;
+  }
+
+  .PrjDtlsTtl {
+    font-size: 15vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  .PrjDtlsDesc {
+    font-size: 5vw;
+  }
+
+  .PrjDtlsCat {
+    font-size: 7vw;
+  }
+
+  .prjimgmain {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+
+  .xtrapics{
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .xtrapicCntr{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+
   /* About page mobile optimization */
 
   /* About Hero mobile optimization */
@@ -293,7 +331,7 @@ body {
   }
 
   /* About Section mobile optimization */
-  .AbtSecTtl{
+  .AbtSecTtl {
     font-size: 15vw;
     padding: 0;
     padding-top: 20px;
@@ -301,82 +339,85 @@ body {
     width: 90%;
   }
 
-  .AbtSecCntr{
+  .AbtSecCntr {
     width: 100%;
     margin: 0;
   }
 
-  .sklscntr{
+  .sklscntr {
     width: 100%;
     margin: 0;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  .sklttl{
+  .sklttl {
     font-size: 10vw;
   }
 
-  .Skls{
+  .Skls {
     font-size: 8vw;
     gap: 10px;
   }
 
-  .expcntr{
+  .expcntr {
     width: 100%;
     margin: 0;
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-    .exptymcntr{
-    
-    }
+  .exptym {
+    font-size: 10vw;
+    gap: 20px;
+    flex-direction: column;
+  }
 
-    .exptym{
-      font-size: 10vw;
-      gap: 20px;
-      flex-direction: column;
-    }
+  /* Contact page mobile optimization starts here */
+  .CntTtl {
+    font-size: 20vw;
+    /* text-align: center; */
+    line-height: 0.85;
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+  }
 
-    /* Contact page mobile optimization starts here */
-    .CntTtl{
-      font-size: 20vw;
-      /* text-align: center; */
-      line-height: .85;
-      width: 80%;
-      padding: 10px;
-      margin: 10px;
-      margin-top: 30px;
-    }
+  .CntPara {
+    font-size: 7vw;
+    line-height: 1.2;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
 
-    .CntPara{
-      font-size: 7vw;
-      line-height: 1.2;
-      width: 100%;
-      margin: 10px;
-      padding: 10px;
-    }
+  .CntWays {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
 
-    .CntWays{
-      width: 100%;
-      margin: 10px;
-      padding: 10px;
-    }
+  .CntCntr {
+    /* margin: 0px; */
+    margin: 10px;
+  }
 
-    .CntCntr{
-      /* margin: 0px; */
-      margin: 10px;
-    }
+  .Cntphn,
+  .Cntmail {
+    font-size: 7vw;
+  }
 
-    .Cntphn , .Cntmail{
-      font-size: 7vw;
-    }
+  .Cntph,
+  .Cntml {
+    font-size: 7vw;
+  }
+}
 
-    .Cntph,.Cntml{
-      font-size: 7vw;
-    }
-    
+@media (min-width: 480px) and (max-width: 768px) {
+  .NrgtHmb {
+    display: none;
+  }
 }
 
 @media (min-width: 1279px) {

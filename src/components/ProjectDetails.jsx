@@ -17,19 +17,19 @@ const ProjectDetails = () => {
   return (
     <div>
       <NavBar />
-      <div className="mt-10 mx-16">
+      <div className="PrjDtlsCntr mt-10 mx-16">
         <div className="flex items-center gap-6">
-          <h1 className="text-9xl text-secondary">
+          <h1 className="PrjDtlsTtl text-9xl text-secondary">
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               {project.title}
             </a>
           </h1>
           <FaExternalLinkAlt color="#FF0490" size={45} />
         </div>
-        <p className="my-12 text-justify leading-8 text-2xl">
+        <p className="PrjDtlsDesc my-12 text-justify leading-8 text-2xl">
           {project.description}
         </p>
-        <p className="text-3xl font-sec text-secondary mb-10">
+        <p className="PrjDtlsCat text-3xl font-sec text-secondary mb-10">
           {project.category}
         </p>
         <img className="prjimgmain" src={project.image} alt={project.title} />
