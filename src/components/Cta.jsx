@@ -11,8 +11,8 @@ const Cta = () => {
   return (
     <>
       <div className="my-32">
-        <div className="mx-auto w-[50vw]">
-          <h1 className="text-6xl">
+        <div className="CtaTtl mx-auto w-[50vw]">
+          <h1 className="CtaPara text-6xl">
             Want to collaborate or learn more about what I can do?
             <span className="text-secondary"> Let's connect</span>
           </h1>

@@ -1,6 +1,25 @@
 import React, { useState, useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 const HamburgerMenu = () => {
+  const navigate = useNavigate();
+
+  const handleNavCnt = () => {
+    navigate("/contact");
+  };
+
+  const handleNavWrk = () => {
+    navigate("/projects");
+  };
+
+  const handleNavHome = () => {
+    navigate("/");
+  };
+
+  const handleNavAbt = () => {
+    navigate("/about");
+  };
+
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -57,22 +76,38 @@ const HamburgerMenu = () => {
       {menuOpen && (
         <div className="absolute top-10 right-0 bg-secondary shadow-lg w-[120px] rounded-lg p-4 flex flex-col gap-3">
           <a
-            href="#option1"
-            className="text-primary hover:text-gray-600 transition-colors"
+            className="text-primary hover:text-yellow-600 transition-colors"
+            onClick={handleNavAbt}
           >
-            About
+            About Me
           </a>
           <a
-            href="#option2"
-            className="text-primary hover:text-gray-600 transition-colors"
+            className="text-primary hover:text-yellow-600 transition-colors"
+            onClick={handleNavWrk}
           >
-            News
+            Projects
           </a>
           <a
-            href="#option3"
-            className="text-primary hover:text-gray-600 transition-colors"
+            href="https://www.linkedin.com/in/adhithyan-banugoban-5b1515288/"
+            target="_blank"
+            rel="nooopener noreferrer"
+            className="text-primary hover:text-yellow-600 transition-colors"
           >
-            Ask Tamriel
+            Linkedin
+          </a>
+          <a
+            href="https://www.behance.net/adhithybanugob"
+            target="_blank"
+            rel="nooopener noreferrer"
+            className="text-primary hover:text-yellow-600- transition-colors"
+          >
+            Behance
+          </a>
+          <a
+            onClick={handleNavCnt}
+            className="text-primary hover:text-yellow-600- transition-colors"
+          >
+            Contact Me
           </a>
         </div>
       )}

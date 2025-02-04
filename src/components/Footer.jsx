@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <div className="Ftr text-2xl flex gap-6 pl-9 py-6">
-        <span className="font-sec">©2025</span>
+        <span className="FtrYr font-sec">©2025</span>
         <span onClick={handleCnt} className="cursor-pointer">
           Contact
         </span>
