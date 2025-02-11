@@ -18,7 +18,7 @@ const Bento = () => {
           <span>Frontend</span>
           <span>Wireframing</span>
           <span>Poster design</span>
-          <span>Responisve Design</span>
+          <span>Responsive Design</span>
           <span>Logo designing</span>
         </div>
       </div>
@@ -84,11 +84,10 @@ const Bento = () => {
             <p className="text-secondary">
               TamrielAGI
               {/* <span className="Exptym text-primary ml-[21vw]"> */}
-             
             </p>
             <span className="Exptym text-primary">
-                Current, UI/UX designer,Frontend Developer.
-              </span>
+              Current, UI/UX designer,Frontend Developer.
+            </span>
           </div>
         </div>
       </div>
