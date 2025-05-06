@@ -14,6 +14,10 @@ import WrkHome1 from "../assets/wrkimghome-2.png"
 import WrkHome2 from "../assets/wrkimghome-1.png"
 import WrkHome3 from "../assets/wrkimghome-3.png"
 import WrkHome4 from "../assets/wrkimghome-4.png"
+import Wrk5 from "../assets/Wrk5.png"
+import Wrk51 from "../assets/Wrk51.png"
+import Wrk52 from "../assets/Wrk52.png"
+import WrkHome5 from "../assets/wrkimghome-5.png"
 
 export const projects = [
   {
@@ -59,5 +63,16 @@ export const projects = [
     wrkimg: WrkHome4, 
     category:"Poster Design, Graphic Design, Visual Communication",
     link:"https://www.behance.net/gallery/200966697/Posters"
+  },
+  {
+    id:"5",
+    title:"Devjuice (under development)",
+    description:"DevJuice is a curated platform for discovering and sharing developer tools, built to simplify the overwhelming process of finding quality resources for development workflows. It addresses the real-world problem of tool overload by organizing community-submitted tools with categories, and admin-approved quality control. With a focus on clean UI, real-time previews, and scalability for open-source contribution, DevJuice aims to become a go-to resource hub for developers. The platform is currently under active development and not yet deployed.",
+    image:Wrk5,
+    img1:Wrk51,
+    img2:Wrk52,
+    wrkimg: WrkHome5, 
+    category:"Web development, UI/UX , Open source project",
+    link:""
   },
 ];
