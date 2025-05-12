@@ -66,8 +66,8 @@ export const projects = [
   },
   {
     id:"5",
-    title:"Devjuice (under development)",
-    description:"DevJuice is a curated platform for discovering and sharing developer tools, built to simplify the overwhelming process of finding quality resources for development workflows. It addresses the real-world problem of tool overload by organizing community-submitted tools with categories, and admin-approved quality control. With a focus on clean UI, real-time previews, and scalability for open-source contribution, DevJuice aims to become a go-to resource hub for developers. The platform is currently under active development and not yet deployed.",
+    title:"Devjuice",
+    description:"DevJuice is a curated platform for discovering and sharing developer tools, built to simplify the overwhelming process of finding quality resources for development workflows. It addresses the real-world problem of tool overload by organizing community-submitted tools with categories, and admin-approved quality control. With a focus on clean UI, real-time previews, and scalability for open-source contribution, DevJuice aims to become a go-to resource hub for developers.",
     image:Wrk5,
     img1:Wrk51,
     img2:Wrk52,
