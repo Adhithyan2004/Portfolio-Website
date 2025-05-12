@@ -73,6 +73,6 @@ export const projects = [
     img2:Wrk52,
     wrkimg: WrkHome5, 
     category:"Web development, UI/UX , Open source project",
-    link:""
+    link:"https://dev-juice.vercel.app/"
   },
 ];
