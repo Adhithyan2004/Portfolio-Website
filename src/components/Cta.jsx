@@ -12,20 +12,20 @@ const Cta = () => {
     <>
       <div className="my-32">
         <div className="CtaTtl mx-auto w-[50vw]">
-          <h1 className="CtaPara text-6xl">
+          <h1 className="text-6xl CtaPara">
             Want to collaborate or learn more about what I can do?
             <span className="text-secondary"> Let's connect</span>
           </h1>
         </div>
-        <div className="Btns flex justify-center gap-8 text-2xl my-9">
-          <button className="text-secondary bg-black px-4 py-2 rounded-md hover:bg-secondary hover:text-black">
-            <a href="/My-resume.pdf" download="My-resume.pdf">
+        <div className="flex justify-center gap-8 text-2xl Btns my-9">
+          <button className="px-4 py-2 bg-black rounded-md text-secondary hover:bg-secondary hover:text-black">
+            <a href="/Adhithyan_Resume.pdf" download="Adhithyan_Resume.pdf">
               Resume
             </a>
           </button>
           <button
             onClick={handleNavCnt}
-            className="text-primary bg-black px-4 py-2 rounded-md hover:bg-primary hover:text-black"
+            className="px-4 py-2 bg-black rounded-md text-primary hover:bg-primary hover:text-black"
           >
             Contact Me
           </button>
