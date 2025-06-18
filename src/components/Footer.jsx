@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="Ftr text-2xl flex gap-6 pl-9 py-6">
+      <div className="flex gap-6 py-6 text-2xl Ftr pl-9">
         <span className="FtrYr font-sec">©2025</span>
         <span onClick={handleCnt} className="cursor-pointer">
           Contact
@@ -43,9 +43,18 @@ const Footer = () => {
             Linkedin
           </a>
         </span>
+        <span>
+          <a
+            href="https://github.com/Adhithyan2004"
+            target="_blank"
+            rel="nooopener noreferrer"
+          >
+            Github
+          </a>
+        </span>
       </div>
       <div>
-        <img className="nmeImg mx-auto pt-8" src={Name} alt="Name image" />
+        <img className="pt-8 mx-auto nmeImg" src={Name} alt="Name image" />
       </div>
     </>
   );

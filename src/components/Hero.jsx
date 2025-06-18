@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="HroCntr flex justify-between  items-center my-14 mx-32">
+      <div className="flex items-center justify-between mx-32 HroCntr my-14">
         <div className="HroLft text-secondary ">
           {/* <SplitText
             text="Hello"
@@ -24,7 +24,7 @@ const Hero = () => {
           /> */}
           <h1 className="HroTxt text-[20vw] mb-[-60px]">Hello</h1>
           <p className="HroDesc text-[2.5vw] w-[45vw]">
-            -It's Adhithyan a <span className="text-black">ui/ux developer</span> based in Tamil Nadu,
+            -It's Adhithyan a <span className="text-black">Full Stack developer</span> based in Tamil Nadu,
             India
           </p>
         </div>

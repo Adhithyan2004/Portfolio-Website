@@ -1,32 +1,38 @@
-import React from "react";
-
 const AbtSection = () => {
   return (
-    <div className="AbtSecCntr bg-secondary mt-28 h-auto mb-60">
+    <div className="h-auto AbtSecCntr bg-secondary mt-28 mb-60">
       <p className="AbtSecTtl text-primary p-7 ml-12 text-9xl w-[87vw]">
-        I LEVERAGE STRATEGIC THINKING,{" "}
-        <span className="text-black">CREATIVE</span> VISION, AND TECHNICAL
-        EXPERTISE TO CREATE
-        <span className="text-black"> COMPELLING DIGITAL SOLUTIONS.</span>
+        I COMBINE{" "}
+        <span className="text-blk">USER-CENTRIC DESIGN, ROBUST CODE,</span> AND{" "}
+        <span className="text-blk">SCALABLE SYSTEMS</span> TO BUILD ENGAGING
+        DIGITAL EXPERIENCES.
       </p>
-      <div className="sklscntr ml-12 p-7 mt-32 text-4xl flex flex-col gap-5">
-        <h1 className="sklttl text-6xl">SKILLS AND EXPERTISE</h1>
-        <div className="Skls text-primary flex flex-col gap-5">
-          <p>FRONTEND</p>
-          <p>UI/UX DESIGN</p>
-          <p>BRANDING & IDENTITY</p>
-          <p>RESPONSIVE DESIGNING</p>
+      <div className="flex flex-col gap-5 mt-32 ml-12 text-4xl sklscntr p-7">
+        <h1 className="text-6xl sklttl">SKILLS AND EXPERTISE</h1>
+        <div className="flex flex-col gap-5 Skls text-primary">
+          <p>
+            UI/UX DESIGN <span className="text-blk">(intermediate)</span>
+          </p>
+          <p>
+            FRONTEND <span className="text-blk"> (intermediate)</span>
+          </p>
+          <p>
+            BACKEND <span className="text-blk"> (begginer)</span>
+          </p>
+          <p>
+            RESPONSIVE DESIGNING <span className="text-blk"> (beginner)</span>
+          </p>
         </div>
       </div>
-      <div className="expcntr pb-24 ml-12 p-7 mt-3  text-4xl flex flex-col gap-5">
-        <h1 className="expttl text-6xl">EXPERIENCE</h1>
-        <div className="exptymcntr text-primary flex flex-col gap-8">
-          <div className="exptym flex gap-60">
-            <p className="text-black w-64">CRITTER GRAPHIX</p>
+      <div className="flex flex-col gap-5 pb-24 mt-3 ml-12 text-4xl expcntr p-7">
+        <h1 className="text-6xl expttl">EXPERIENCE</h1>
+        <div className="flex flex-col gap-8 exptymcntr text-primary">
+          <div className="flex exptym gap-60">
+            <p className="w-64 text-black">CRITTER GRAPHIX</p>
             <p>5 MONTHS, UI/UX DESIGNER INTERN</p>
           </div>
-          <div className="exptym flex gap-60">
-            <p className="text-black w-64">TAMRIELAGI</p>
+          <div className="flex exptym gap-60">
+            <p className="w-64 text-black">TAMRIELAGI</p>
             <p>CURRENT, UI/UX DESIGNER, FRONTEND DEVELOPER INTERN</p>
           </div>
         </div>
