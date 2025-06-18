@@ -66,7 +66,7 @@ const Bento = () => {
       </div>
       <div className="flex items-center justify-center col-span-5 row-span-4 Title bg-blk rounded-xl">
         <p className=" text-secondary font-sec text-center text-[7.5vw] leading-[7vw]">
-          <span className="sftwrs text-primary">UI/UX</span> Developer
+          <span className="sftwrs text-primary">FULL STACK</span> Developer
         </p>
       </div>
       <div className="Exp bg-blk row-span-4 col-span-9 rounded-xl font-sec p-4 flex flex-col  justify-center gap-[2vw]">
