@@ -33,7 +33,7 @@ const AbtSection = () => {
           </div>
           <div className="flex exptym gap-60">
             <p className="w-64 text-black">TAMRIELAGI</p>
-            <p>CURRENT, UI/UX DESIGNER, FRONTEND DEVELOPER INTERN</p>
+            <p>6 MONTHS, UI/UX DESIGNER, FRONTEND DEVELOPER INTERN</p>
           </div>
         </div>
       </div>

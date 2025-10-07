@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const Cta = () => {
@@ -19,7 +18,7 @@ const Cta = () => {
         </div>
         <div className="flex justify-center gap-8 text-2xl Btns my-9">
           <button className="px-4 py-2 bg-black rounded-md text-secondary hover:bg-secondary hover:text-black">
-            <a href="/Adhithyan_Resume.pdf" download="Adhithyan_Resume.pdf">
+            <a href="/Adhithyan_Resume.pdf" download="adhithyan_UIUX.pdf">
               Resume
             </a>
           </button>

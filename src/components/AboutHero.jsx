@@ -11,10 +11,10 @@ const AboutHero = () => {
         alt="MyAbtPic"
       />
       <p className="text-center AbtHroJob text-secondary text-9xl">
-        FULL STACK <span className="text-black"> DEVELOPER</span>
+        UI UX <span className="text-black"> DEVELOPER</span>
       </p>
       <p className="AbtHroDesc w-[80vw] text-secondary text-center mx-auto my-5 text-6xl">
-        ADHI IS A <span className="text-black">FULL STACK DEVELOPER</span>{" "}
+        ADHI IS A <span className="text-black">UIUX DEVELOPER</span>{" "}
         CRAFTING ENGAGING USER INTERFACES WHERE{" "}
         <span className="text-black">CREATIVITY MEETS CODE.</span>
       </p>
