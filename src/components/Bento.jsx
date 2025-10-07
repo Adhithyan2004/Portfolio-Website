@@ -87,7 +87,7 @@ const Bento = () => {
               {/* <span className="Exptym text-primary ml-[21vw]"> */}
             </p>
             <span className="Exptym text-primary">
-              Current, UI/UX designer,Frontend Developer.
+              6 months, UI/UX designer,Frontend Developer.
             </span>
           </div>
         </div>
