@@ -51,7 +51,7 @@ const HamburgerMenu = () => {
     <div className="relative z-50" ref={menuRef}>
       {/* Hamburger Icon */}
       <button
-        className="flex flex-col justify-between w-8 h-6 z-10 focus:outline-none"
+        className="z-10 flex flex-col justify-between w-8 h-6 focus:outline-none"
         onClick={toggleMenu}
         aria-label="Menu"
       >
@@ -76,13 +76,13 @@ const HamburgerMenu = () => {
       {menuOpen && (
         <div className="absolute top-10 right-0 bg-secondary shadow-lg w-[120px] rounded-lg p-4 flex flex-col gap-3">
           <a
-            className="text-primary hover:text-yellow-600 transition-colors"
+            className="transition-colors text-primary hover:text-yellow-600"
             onClick={handleNavAbt}
           >
             About Me
           </a>
           <a
-            className="text-primary hover:text-yellow-600 transition-colors"
+            className="transition-colors text-primary hover:text-yellow-600"
             onClick={handleNavWrk}
           >
             Projects
@@ -91,7 +91,7 @@ const HamburgerMenu = () => {
             href="https://www.linkedin.com/in/adhithyan-banugoban-5b1515288/"
             target="_blank"
             rel="nooopener noreferrer"
-            className="text-primary hover:text-yellow-600 transition-colors"
+            className="transition-colors text-primary hover:text-yellow-600"
           >
             Linkedin
           </a>
@@ -99,13 +99,13 @@ const HamburgerMenu = () => {
             href="https://www.behance.net/adhithybanugob"
             target="_blank"
             rel="nooopener noreferrer"
-            className="text-primary hover:text-yellow-600- transition-colors"
+            className="transition-colors text-primary hover:text-yellow-600-"
           >
             Behance
           </a>
           <a
             onClick={handleNavCnt}
-            className="text-primary hover:text-yellow-600- transition-colors"
+            className="transition-colors text-primary hover:text-yellow-600-"
           >
             Contact Me
           </a>

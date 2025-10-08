@@ -1,4 +1,3 @@
-import React from "react";
 import AbtPic from "../assets/me-2.jpg";
 
 const AboutHero = () => {

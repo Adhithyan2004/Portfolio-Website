@@ -1,6 +1,4 @@
-import React from "react";
 import Me from "../assets/me.jpg";
-import SplitText from "./SplitText";
 
 const Hero = () => {
 

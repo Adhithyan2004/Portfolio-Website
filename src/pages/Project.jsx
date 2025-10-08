@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../components/NavBar";
 import PrjctTxt from "../components/PrjctTxt";
 import Footer from "../components/Footer";

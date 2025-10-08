@@ -56,7 +56,7 @@ export const projects = [
   {
     id: "4",
     title: "PeakPulse",
-    description: "PeakPulse is a fitness app where I worked on user interface and experience design, logo creation, and branding. I created a clean and intuitive design to enhance usability and visual appeal. The logo and branding were crafted to reflect the app's energy and purpose. I focused on ensuring a seamless and cohesive experience across all design aspects. This project showcased my skills in combining creativity with user-centered design principles.",
+    description: "PeakPulse is a fitness app where I led the UI/UX design, logo creation, and branding. I designed a clean, intuitive interface to boost usability and visual appeal, while crafting a logo and brand identity that reflect the app’s energy and purpose. The result is a cohesive, user-centered design that delivers a seamless experience across all touchpoints.",
     image: Wrk3,
     img1:Wrk31,
     img2:Wrk32,
