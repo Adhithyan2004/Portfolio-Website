@@ -17,7 +17,7 @@ const AbtSection = () => {
             FRONTEND <span className="text-blk"> (intermediate)</span>
           </p>
           <p>
-            BACKEND <span className="text-blk"> (begginer)</span>
+            BACKEND <span className="text-blk"> (beginner)</span>
           </p>
           <p>
             RESPONSIVE DESIGNING <span className="text-blk"> (beginner)</span>
