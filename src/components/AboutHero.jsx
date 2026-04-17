@@ -10,12 +10,12 @@ const AboutHero = () => {
         alt="MyAbtPic"
       />
       <p className="text-center AbtHroJob text-secondary text-9xl">
-        UI UX <span className="text-black"> DEVELOPER</span>
+        Full-Stack <span className="text-black"> DEVELOPER</span>
       </p>
       <p className="AbtHroDesc w-[80vw] text-secondary text-center mx-auto my-5 text-6xl">
-        ADHI IS A <span className="text-black">UIUX DEVELOPER</span>{" "}
-        CRAFTING ENGAGING USER INTERFACES WHERE{" "}
-        <span className="text-black">CREATIVITY MEETS CODE.</span>
+        Adhi is a <span className="text-black">full-stack developer </span>{" "}
+        crafting clean, functional user interfaces where design meets scalable
+        systems.
       </p>
     </div>
   );

@@ -9,6 +9,7 @@ body {
 
 .sftimg {
   height: 4vw;
+  border-radius: 10px;
 }
 
 .MePic {
@@ -293,17 +294,16 @@ body {
     margin-bottom: 15px;
   }
 
-  .xtrapics{
+  .xtrapics {
     border-radius: 5px;
     width: 100%;
   }
 
-  .xtrapicCntr{
+  .xtrapicCntr {
     flex-direction: column;
     width: 100%;
     align-items: center;
   }
-
 
   /* About page mobile optimization */
 

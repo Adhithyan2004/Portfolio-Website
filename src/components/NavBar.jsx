@@ -1,4 +1,3 @@
-
 import { useNavigate } from "react-router-dom";
 import HamburgerMenu from "./HamburgerMenu";
 const NavBar = () => {
@@ -55,20 +54,20 @@ const NavBar = () => {
           </span>
           <span className="transition duration-200 ease-in-out delay-75 cursor-pointer hover:-translate-y-1 hover:scale-x-105">
             <a
-              href="https://www.behance.net/adhithybanugob"
-              target="_blank"
-              rel="nooopener noreferrer"
-            >
-              Behance
-            </a>
-          </span>
-          <span className="transition duration-200 ease-in-out delay-75 cursor-pointer hover:-translate-y-1 hover:scale-x-105">
-            <a
               href="https://github.com/Adhithyan2004"
               target="_blank"
               rel="nooopener noreferrer"
             >
               Github
+            </a>
+          </span>
+          <span className="transition duration-200 ease-in-out delay-75 cursor-pointer hover:-translate-y-1 hover:scale-x-105">
+            <a
+              href="https://www.behance.net/adhithybanugob"
+              target="_blank"
+              rel="nooopener noreferrer"
+            >
+              Behance
             </a>
           </span>
         </div>

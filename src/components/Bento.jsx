@@ -1,8 +1,8 @@
 import react from "../assets/react.png";
-import framer from "../assets/framer.png";
+import nodejs from "../assets/nodejs.png";
 import figma from "../assets/figma.png";
-import affinity from "../assets/affinity.jpg";
-import psd from "../assets/psd.png";
+import prisma from "../assets/prisma.png";
+import postgres from "../assets/postgres.png";
 import tailwind from "../assets/taiwldc.jpg";
 
 const Bento = () => {
@@ -13,51 +13,49 @@ const Bento = () => {
           My Skills
         </h1>
         <div className="skls text-secondary font-sec flex flex-col gap-7 text-[2.2vw]">
-          <span>User Experience and User Interface</span>
-          <span>Frontend</span>
-          <span>Backend</span>
-          <span>Wireframing</span>
-          <span>Responsive Design</span>
-          <span>Logo designing</span>
+          <span>React (Next.js)</span>
+          <span>TypeScript</span>
+          <span>Node.js (Express)</span>
+          <span>REST API Design</span>
+          <span>Database (PostgreSQL/ORM)</span>
+          <span>Git & GitHub</span>
         </div>
       </div>
       <div className="flex flex-col flex-wrap justify-center col-span-5 row-span-4 p-5 SofWrs bg-blk rounded-xl gap-9 font-sec">
-        <div className="sftflx flex items-center text-[2vw] gap-3">
+        <div className="sftflx flex items-center  text-[2vw] gap-3">
           <img className="sftimg" src={react} alt="react logo" />
           <p className="sftwrs text-primary">React</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className="sftimg" src={framer} alt="react logo" />
-          <p className="sftwrs text-primary">Framer</p>
+          <img className=" sftimg" src={nodejs} alt="nodejs logo" />
+          <p className="sftwrs text-primary">NodeJs</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className="sftimg" src={affinity} alt="react logo" />
-          <p className="sftwrs text-primary">Affinity</p>
+          <img className="sftimg" src={prisma} alt="prisma logo" />
+          <p className="sftwrs text-primary">Prisma ORM</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className="sftimg" src={psd} alt="react logo" />
-          <p className="sftwrs text-primary">Photoshop</p>
+          <img className="sftimg" src={postgres} alt="postgreSQL logo" />
+          <p className="sftwrs text-primary">PostgreSQL</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className="sftimg" src={figma} alt="react logo" />
+          <img className="sftimg" src={figma} alt="figma logo" />
           <p className="sftwrs text-primary">Figma</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className="sftimg" src={tailwind} alt="react logo" />
+          <img className="sftimg" src={tailwind} alt="tailwind logo" />
           <p className="sftwrs text-primary">Tailwind</p>
         </div>
       </div>
       <div className="flex items-center col-span-4 p-6 Bio bg-blk row-span-8 rounded-xl font-sec">
         <p className="BioTxt text-primary text-[2vw]">
-          For me, building products goes beyond just{" "}
-          <span className="text-secondary">solving problems</span>. It's about
-          crafting meaningful{" "}
-          <span className="text-secondary">user experiences</span> combining
-          clean design, smooth{" "}
-          <span className="text-secondary">
-            functionality, and scalable systems
-          </span>{" "}
-          to create something people genuinely connect with.
+          For me, building products is about balancing strong{" "}
+          <span className="text-secondary">backend systems </span>
+          with clean and functional UI. I focus on creating scalable,{" "}
+          <span className="text-secondary">reliable applications </span> while
+          paying attention to the small details that make the{" "}
+          <span className="text-secondary">user experience </span>
+          smooth and intuitive.
           <br />
           <br />
           <span className="font-cur">-adhi</span>
@@ -65,11 +63,11 @@ const Bento = () => {
       </div>
       <div className="flex items-center justify-center col-span-5 row-span-4 Title bg-blk rounded-xl">
         <p className=" text-secondary font-sec text-center text-[7.5vw] leading-[7vw]">
-          <span className="sftwrs text-primary">UI UX</span> Developer
+          <span className="sftwrs text-primary">Full-Stack</span> Developer
         </p>
       </div>
       <div className="Exp bg-blk row-span-4 col-span-9 rounded-xl font-sec p-4 flex flex-col  justify-center gap-[2vw]">
-        <h1 className="ExpTtl text-secondary text-[2.5vw]">Experience</h1>
+        <h1 className="ExpTtl text-primary text-[2.5vw]">Experience</h1>
         <div className="ExpBdy flex flex-col text-[2vw]">
           <div className="flex justify-between pr-32 test-1">
             <p className="text-secondary">

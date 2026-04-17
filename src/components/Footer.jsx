@@ -35,15 +35,6 @@ const Footer = () => {
         </span>
         <span>
           <a
-            href="https://www.linkedin.com/in/adhithyan-banugoban-5b1515288/"
-            target="_blank"
-            rel="nooopener noreferrer"
-          >
-            Linkedin
-          </a>
-        </span>
-        <span>
-          <a
             href="https://github.com/Adhithyan2004"
             target="_blank"
             rel="nooopener noreferrer"
