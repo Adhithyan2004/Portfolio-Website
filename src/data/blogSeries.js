@@ -34,6 +34,13 @@ const blogseries = [
         date: "August 6, 2026",
         slug: "ports-and-packets",
       },
+      {
+        episode: 5,
+        title: "Through the Tunnel",
+        tags: ["cloudefare", "cgnat", "homeserver", "bypassingcgnat"],
+        date: "August 11, 2026",
+        slug: "through-the-tunnel",
+      },
     ],
   },
 ];
