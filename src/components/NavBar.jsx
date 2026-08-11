@@ -19,6 +19,10 @@ const NavBar = () => {
     navigate("/about");
   };
 
+  const handleNavBlog = () => {
+    navigate("/blog");
+  };
+
   return (
     <nav className="flex items-center justify-between mx-16 NCntr">
       <div className="flex items-center gap-8 Nlft">
@@ -72,12 +76,20 @@ const NavBar = () => {
           </span>
         </div>
       </div>
-      <u
-        onClick={handleNavCnt}
-        className="text-2xl transition duration-200 ease-in-out delay-75 cursor-pointer Nrgt CntBtn text-secondary hover:-translate-y-1 hover:scale-x-105"
-      >
-        Contact Me
-      </u>
+      <div className="flex gap-7">
+        <u
+          onClick={handleNavBlog}
+          className="text-2xl transition duration-200 ease-in-out delay-75 cursor-pointer Nrgt CntBtn text-secondary hover:-translate-y-1 hover:scale-x-105"
+        >
+          Blog
+        </u>
+        <u
+          onClick={handleNavCnt}
+          className="text-2xl transition duration-200 ease-in-out delay-75 cursor-pointer Nrgt CntBtn text-secondary hover:-translate-y-1 hover:scale-x-105"
+        >
+          Contact Me
+        </u>
+      </div>
     </nav>
   );
 };

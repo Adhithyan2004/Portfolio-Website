@@ -23,7 +23,7 @@ const ProjectDetails = () => {
               {project.title}
             </a>
           </h1>
-          <FaExternalLinkAlt color="#FF0490" size={45} />
+          <FaExternalLinkAlt color="#526bfc" size={45} />
         </div>
         <p className="my-12 text-2xl leading-8 text-justify PrjDtlsDesc">
           {project.description}

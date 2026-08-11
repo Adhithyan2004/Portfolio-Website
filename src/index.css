@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 body {
-  background-color: #fcc737;
   font-family: "Jaro", sans-serif;
 }
 
@@ -41,7 +40,7 @@ body {
 }
 
 .prjimg:hover {
-  box-shadow: 0 0 10px 6px #df41c4;
+  box-shadow: 0 0 10px 6px #526bfc;
 }
 
 .xtrapics {
@@ -64,7 +63,7 @@ body {
 }
 
 .WrkImg:hover {
-  box-shadow: 0 0 10px 6px #df41c4;
+  box-shadow: 0 0 10px 6px #526bfc;
 }
 
 .prjimgmain {

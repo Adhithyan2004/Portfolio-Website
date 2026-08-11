@@ -8,17 +8,17 @@ import tailwind from "../assets/taiwldc.jpg";
 const Bento = () => {
   return (
     <div className="MainGrid grid grid-cols-12 grid-rows-12 h-[95vh] gap-3 m-7">
-      <div className="flex flex-col flex-wrap justify-center col-span-3 gap-5 p-5 Skills bg-blk row-span-12 rounded-xl">
-        <h1 className="sklsTtl font-sec text-primary text-[4.2vw] gap-3">
+      <div className="flex flex-col flex-wrap justify-center col-span-3 gap-5 p-5 bg-secondary Skills row-span-12 rounded-xl">
+        <h1 className="sklsTtl font-sec text-blk text-[4.2vw] gap-3">
           My Skills
         </h1>
-        <div className="skls text-secondary font-sec flex flex-col gap-7 text-[2.2vw]">
+        <div className="skls text-white font-sec flex flex-col gap-7 text-[2.2vw]">
           <span>React (Next.js)</span>
-          <span>TypeScript</span>
+          <span className="text-blk">TypeScript</span>
           <span>Node.js (Express)</span>
-          <span>REST API Design</span>
+          <span className="text-blk">REST API Design</span>
           <span>Database (PostgreSQL/ORM)</span>
-          <span>Git & GitHub</span>
+          <span className="text-blk">Git & GitHub</span>
         </div>
       </div>
       <div className="flex flex-col flex-wrap justify-center col-span-5 row-span-4 p-5 SofWrs bg-blk rounded-xl gap-9 font-sec">
@@ -47,14 +47,14 @@ const Bento = () => {
           <p className="sftwrs text-primary">Tailwind</p>
         </div>
       </div>
-      <div className="flex items-center col-span-4 p-6 Bio bg-blk row-span-8 rounded-xl font-sec">
+      <div className="flex items-center col-span-4 p-6 Bio bg-secondary row-span-8 rounded-xl font-sec">
         <p className="BioTxt text-primary text-[2vw]">
           For me, building products is about balancing strong{" "}
-          <span className="text-secondary">backend systems </span>
+          <span className="text-blk">backend systems </span>
           with clean and functional UI. I focus on creating scalable,{" "}
-          <span className="text-secondary">reliable applications </span> while
-          paying attention to the small details that make the{" "}
-          <span className="text-secondary">user experience </span>
+          <span className="text-blk">reliable applications </span> while paying
+          attention to the small details that make the{" "}
+          <span className="text-blk">user experience </span>
           smooth and intuitive.
           <br />
           <br />
