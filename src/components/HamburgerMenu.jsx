@@ -20,6 +20,10 @@ const HamburgerMenu = () => {
     navigate("/about");
   };
 
+  const handleBlog = () => {
+    navigate("/blog");
+  };
+
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -102,6 +106,12 @@ const HamburgerMenu = () => {
             className="transition-colors text-primary hover:text-yellow-600-"
           >
             Behance
+          </a>
+          <a
+            onClick={handleBlog}
+            className="transition-colors text-primary hover:text-yellow-600-"
+          >
+            Blog
           </a>
           <a
             onClick={handleNavCnt}

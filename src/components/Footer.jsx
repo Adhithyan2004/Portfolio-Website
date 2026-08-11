@@ -8,12 +8,19 @@ const Footer = () => {
     navigate("/contact");
   };
 
+  const handleBlog = () => {
+    navigate("/blog");
+  };
+
   return (
     <>
       <div className="flex gap-6 py-6 text-2xl Ftr pl-9">
-        <span className="FtrYr font-sec">©2025</span>
+        <span className="FtrYr font-sec">©2026</span>
         <span onClick={handleCnt} className="cursor-pointer">
           Contact
+        </span>
+        <span onClick={handleBlog} className="cursor-pointer">
+          Blog
         </span>
         <span>
           <a
