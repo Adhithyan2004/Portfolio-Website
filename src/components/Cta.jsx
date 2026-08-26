@@ -18,7 +18,7 @@ const Cta = () => {
         </div>
         <div className="flex justify-center gap-8 text-2xl Btns my-9">
           <button className="px-4 py-2 bg-black rounded-md text-secondary hover:bg-secondary hover:text-black">
-            <a href="/Adhithyan_Frontend_Developer.pdf" download="Adhithyan_Frontend_Developer.pdf">
+            <a href="/adhithyan_resume.pdf" download="Adhithyan_Resume.pdf">
               Resume
             </a>
           </button>
