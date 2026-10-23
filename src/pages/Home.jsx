@@ -4,15 +4,27 @@ import Bento from "../components/Bento";
 import Work from "../components/Work";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
+import Reveal from "../components/Reveal";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-primary">
       <NavBar />
+
       <Hero />
-      <Bento />
-      <Work />
-      <Cta />
+
+      <Reveal>
+        <Bento />
+      </Reveal>
+
+      <Reveal>
+        <Work />
+      </Reveal>
+
+      <Reveal y={16}>
+        <Cta />
+      </Reveal>
+
       <Footer />
     </div>
   );

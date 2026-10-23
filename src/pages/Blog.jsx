@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="bg-primary">
       <NavBar />
       <main className="pt-10 pb-20 mx-16">
         {/* Page heading */}

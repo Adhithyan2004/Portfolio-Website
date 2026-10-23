@@ -1,8 +1,8 @@
 import react from "../assets/react.png";
-import nodejs from "../assets/nodejs.png";
+import affinity from "../assets/affinity.webp";
 import figma from "../assets/figma.png";
-import prisma from "../assets/prisma.png";
-import postgres from "../assets/postgres.png";
+import css from "../assets/css.png";
+import framer from "../assets/framer.png";
 import tailwind from "../assets/taiwldc.jpg";
 
 const Bento = () => {
@@ -13,12 +13,12 @@ const Bento = () => {
           My Skills
         </h1>
         <div className="skls text-white font-sec flex flex-col gap-7 text-[2.2vw]">
-          <span>React (Next.js)</span>
-          <span className="text-blk">TypeScript</span>
-          <span>Node.js (Express)</span>
-          <span className="text-blk">REST API Design</span>
-          <span>Database (PostgreSQL/ORM)</span>
-          <span className="text-blk">Git & GitHub</span>
+          <span>User Research</span>
+          <span className="text-blk">Wireframing</span>
+          <span>Prototyping</span>
+          <span className="text-blk">Interaction Design</span>
+          <span>Design Systems</span>
+          <span className="text-blk">Visual Design</span>
         </div>
       </div>
       <div className="flex flex-col flex-wrap justify-center col-span-5 row-span-4 p-5 SofWrs bg-blk rounded-xl gap-9 font-sec">
@@ -27,16 +27,16 @@ const Bento = () => {
           <p className="sftwrs text-primary">React</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className=" sftimg" src={nodejs} alt="nodejs logo" />
-          <p className="sftwrs text-primary">NodeJs</p>
+          <img className=" sftimg" src={affinity} alt="nodejs logo" />
+          <p className="sftwrs text-primary">Affinity</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className="sftimg" src={prisma} alt="prisma logo" />
-          <p className="sftwrs text-primary">Prisma ORM</p>
+          <img className="sftimg" src={css} alt="prisma logo" />
+          <p className="sftwrs text-primary">CSS</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
-          <img className="sftimg" src={postgres} alt="postgreSQL logo" />
-          <p className="sftwrs text-primary">PostgreSQL</p>
+          <img className="bg-white sftimg" src={framer} alt="postgreSQL logo" />
+          <p className="sftwrs text-primary">Framer</p>
         </div>
         <div className="sftflx flex items-center text-[2vw] gap-3">
           <img className="sftimg" src={figma} alt="figma logo" />
@@ -49,13 +49,13 @@ const Bento = () => {
       </div>
       <div className="flex items-center col-span-4 p-6 Bio bg-secondary row-span-8 rounded-xl font-sec">
         <p className="BioTxt text-primary text-[2vw]">
-          For me, building products is about balancing strong{" "}
-          <span className="text-blk">backend systems </span>
-          with clean and functional UI. I focus on creating scalable,{" "}
-          <span className="text-blk">reliable applications </span> while paying
-          attention to the small details that make the{" "}
-          <span className="text-blk">user experience </span>
-          smooth and intuitive.
+          For me, design is about balancing user needs with{" "}
+          <span className="text-black"> visual clarity</span> and intuitive
+          interactions. I focus on creating meaningful{" "}
+          <span className="text-black"> digital experiences</span> while paying
+          attention to the small details that make every{" "}
+          <span className="text-black"> interface</span> feel seamless,
+          engaging, and easy to use.
           <br />
           <br />
           <span className="font-cur">-adhi</span>
@@ -63,7 +63,7 @@ const Bento = () => {
       </div>
       <div className="flex items-center justify-center col-span-5 row-span-4 Title bg-blk rounded-xl">
         <p className=" text-secondary font-sec text-center text-[7.5vw] leading-[7vw]">
-          <span className="sftwrs text-primary">Full-Stack</span> Developer
+          <span className="sftwrs text-primary">UI/UX</span> Developer
         </p>
       </div>
       <div className="Exp bg-blk row-span-4 col-span-9 rounded-xl font-sec p-4 flex flex-col  justify-center gap-[2vw]">
@@ -75,7 +75,7 @@ const Bento = () => {
               {/* <span className="Exptym text-primary ml-[18vw]"> */}
             </p>
             <span className="Exptym text-primary">
-              5 months, UI/UX designer.
+              5 months, UI/UX designer Intern.
             </span>
           </div>
           <div className="flex justify-between pr-32 test-2">
@@ -84,7 +84,7 @@ const Bento = () => {
               {/* <span className="Exptym text-primary ml-[21vw]"> */}
             </p>
             <span className="Exptym text-primary">
-              6 months, UI/UX designer,Frontend Developer.
+              6 months, UI/UX designer Intern.
             </span>
           </div>
         </div>
